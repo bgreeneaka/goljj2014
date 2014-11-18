@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class GoL {
 	private int[][] world;
 
@@ -7,11 +9,12 @@ public class GoL {
 	}
 
 	public GoL() {
+		Random r = new Random();
 		int i, j;
 		world = new int[5][5];
 		for (i = 0; i < world.length; i++) {
 			for (j = 0; j < world.length; j++) {
-				
+				world[i][j]=r.nextInt(2);
 
 			}
 		}
