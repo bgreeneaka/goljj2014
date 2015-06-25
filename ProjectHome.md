@@ -1,0 +1,1 @@
+Parallelism applied to Conway's Game of Life
